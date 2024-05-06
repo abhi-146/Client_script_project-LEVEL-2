@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-02 16:57:39.061870",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "language",
+  "framework",
+  "ides",
+  "applied_date",
+  "initials",
+  "testing_tools",
+  "bug_tracking_system",
+  "automation_experience",
+  "test_environments",
+  "design_tools",
+  "design_style",
+  "color_theory_knowledge",
+  "typography_skills",
+  "uiux_experience"
+ ],
+ "fields": [
+  {
+   "fieldname": "language",
+   "fieldtype": "Select",
+   "label": "Language",
+   "options": "Python\nJavascript\nPHP"
+  },
+  {
+   "fieldname": "framework",
+   "fieldtype": "Read Only",
+   "label": "Framework"
+  },
+  {
+   "fieldname": "ides",
+   "fieldtype": "Select",
+   "label": "IDEs",
+   "options": "VS code\nIntelliJ idea\nEclipse"
+  },
+  {
+   "fieldname": "applied_date",
+   "fieldtype": "Read Only",
+   "label": "Applied date"
+  },
+  {
+   "fieldname": "initials",
+   "fieldtype": "Read Only",
+   "label": "Initials"
+  },
+  {
+   "fieldname": "testing_tools",
+   "fieldtype": "Select",
+   "label": "Testing tools",
+   "options": "JUnit\nAppium\nSelenium"
+  },
+  {
+   "fieldname": "bug_tracking_system",
+   "fieldtype": "Select",
+   "label": "Bug tracking system",
+   "options": "Zira\nBugzilla"
+  },
+  {
+   "fieldname": "automation_experience",
+   "fieldtype": "Int",
+   "label": "Automation experience"
+  },
+  {
+   "fieldname": "test_environments",
+   "fieldtype": "Data",
+   "label": "Test environments"
+  },
+  {
+   "fieldname": "design_tools",
+   "fieldtype": "Select",
+   "label": "Design Tools",
+   "options": "Adobe photoshop\nIllustrator\nsketch"
+  },
+  {
+   "fieldname": "design_style",
+   "fieldtype": "Data",
+   "label": "Design Style"
+  },
+  {
+   "fieldname": "color_theory_knowledge",
+   "fieldtype": "Data",
+   "label": "Color theory knowledge"
+  },
+  {
+   "fieldname": "typography_skills",
+   "fieldtype": "Data",
+   "label": "Typography skills"
+  },
+  {
+   "fieldname": "uiux_experience",
+   "fieldtype": "Int",
+   "label": "UI/UX experience"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-06 13:09:01.425569",
+ "modified_by": "Administrator",
+ "module": "Customer Management",
+ "name": "Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
